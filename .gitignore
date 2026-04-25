@@ -1,0 +1,33 @@
+# ======================
+# PYTHON
+# ======================
+__pycache__/
+*.pyc
+
+# ======================
+# DATA (ignore raw + processed)
+# ======================
+data/processed/*.h5
+
+# Nếu muốn ignore toàn bộ dataset:
+# data/processed/
+
+# ======================
+# VOCAB (tùy chọn)
+# ======================
+# Nếu vocab nhỏ → nên giữ
+# Nếu không → ignore
+# data/vocabulary/*.pkl
+
+# ======================
+# CHECKPOINTS (ignore model nặng)
+# ======================
+checkpoints/*.pt
+
+# GIỮ lại folder
+!checkpoints/.gitkeep
+
+# ======================
+# ENV
+# ======================
+.env
