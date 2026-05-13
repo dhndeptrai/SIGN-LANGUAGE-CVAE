@@ -1,0 +1,19 @@
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data processing
+h5py>=3.7.0
+numpy>=1.24.0
+pandas>=1.5.0
+
+# MediaPipe (Keypoint Extraction - M2)
+mediapipe>=0.10.0
+opencv-python>=4.7.0
+
+# Visualization & Analysis
+matplotlib>=3.6.0
+scikit-learn>=1.2.0
+
+# Utilities
+tqdm>=4.64.0

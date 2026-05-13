@@ -1,0 +1,8 @@
+{
+  "mse": 9.141766966843024,
+  "dtw": 2.031687032542495,
+  "num_samples": 642,
+  "latent_kl": 4.873866939544678,
+  "split": "test",
+  "checkpoint": "checkpoints/best_model.pt"
+}

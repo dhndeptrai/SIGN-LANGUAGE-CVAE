@@ -104,6 +104,18 @@ class GlossVocabulary:
         
         return ids
     
+    def get_id(self, word: str) -> int:
+        """
+        Return the ID for a gloss token, or the <unk> ID if not found.
+
+        Args:
+            word (str): Gloss token.
+
+        Returns:
+            int: Token ID.
+        """
+        return self.word2id.get(word, self.word2id[self.special_tokens['unk']])
+    
     def decode(self, ids: List[int], remove_special: bool = True) -> str:
         """
         Chuyển danh sách ID thành câu.

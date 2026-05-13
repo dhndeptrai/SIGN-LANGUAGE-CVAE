@@ -1,0 +1,56 @@
+{
+  "gloss": "MORGEN SONNE SCHEINEN",
+  "num_samples": 5,
+  "samples": [
+    {
+      "sample_id": 1,
+      "filename": "MORGEN_SONNE_SCHEINEN_sample01.npy",
+      "shape": [
+        300,
+        225
+      ],
+      "avg_velocity_magnitude": 0.02078941836953163,
+      "pose_spread": 0.579467236995697
+    },
+    {
+      "sample_id": 2,
+      "filename": "MORGEN_SONNE_SCHEINEN_sample02.npy",
+      "shape": [
+        300,
+        225
+      ],
+      "avg_velocity_magnitude": 0.02131136693060398,
+      "pose_spread": 0.5771766304969788
+    },
+    {
+      "sample_id": 3,
+      "filename": "MORGEN_SONNE_SCHEINEN_sample03.npy",
+      "shape": [
+        300,
+        225
+      ],
+      "avg_velocity_magnitude": 0.02217472717165947,
+      "pose_spread": 0.5775943994522095
+    },
+    {
+      "sample_id": 4,
+      "filename": "MORGEN_SONNE_SCHEINEN_sample04.npy",
+      "shape": [
+        300,
+        225
+      ],
+      "avg_velocity_magnitude": 0.022219888865947723,
+      "pose_spread": 0.5792749524116516
+    },
+    {
+      "sample_id": 5,
+      "filename": "MORGEN_SONNE_SCHEINEN_sample05.npy",
+      "shape": [
+        300,
+        225
+      ],
+      "avg_velocity_magnitude": 0.021047519519925117,
+      "pose_spread": 0.579271137714386
+    }
+  ]
+}
